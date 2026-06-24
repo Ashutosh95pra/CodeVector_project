@@ -3,7 +3,7 @@ import axios from "axios";
 import ProductCard from "./ProductCard";
 import CategorySearch from "./CategorySearch";
 
-const BASE_URL = "http://localhost:3004/products";
+const BASE_URL = "https://codevector-project-2.onrender.com/products";
 
 function ProductList() {
   const [data, setData] = useState([]);
